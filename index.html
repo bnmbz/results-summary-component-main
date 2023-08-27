@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <title>Michael Boateng | Results summary component</title>
+  </head>
+  <body>
+    <main>
+      <article class="wrapper">
+        <section class="results">
+          <h1 class="results__h1">Your Result</h1>
+
+          <div class="results__content">
+            <h2 class="results__content__h2">76</h2>
+            <h3 class="results__content__h3">of 100</h3>
+          </div>
+
+          <h2 class="results__h2">Great</h2>
+          <p class="results__p">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </section>
+
+        <section class="summary">
+          <h2 class="summary__h2">Summary</h2>
+
+          <div class="summary__wrapper">
+            <div class="summary__content-wrapper">
+              <p class="nowrap">
+                <img src="./assets/images/icon-reaction.svg" alt="Reaction" />
+                Reaction
+              </p>
+              <p class="nowrap">80 <span class="summary__total">/ 100</span></p>
+            </div>
+
+            <div class="summary__content-wrapper">
+              <p class="nowrap">
+                <img src="./assets/images/icon-memory.svg" alt="Memory" />
+                Memory
+              </p>
+              <p class="nowrap">92 <span class="summary__total">/ 100</span></p>
+            </div>
+
+            <div class="summary__content-wrapper">
+              <p class="nowrap">
+                <img src="./assets/images/icon-verbal.svg" alt="Verbal" />
+                Verbal
+              </p>
+              <p class="nowrap">61 <span class="summary__total">/ 100</span></p>
+            </div>
+
+            <div class="summary__content-wrapper">
+              <p class="nowrap">
+                <img src="./assets/images/icon-visual.svg" alt="Visual" />
+                Visual
+              </p>
+              <p class="nowrap">72 <span class="summary__total">/ 100</span></p>
+            </div>
+
+            <button type="button" value="Continue" class="summary__btn">
+              Continue
+            </button>
+          </div>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
